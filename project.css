@@ -1,0 +1,153 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+div.Title{
+  display: block;
+  text-align: left;
+  padding: 5px 10px;
+  font-size: 28px; 
+}
+header{
+    background-color: #98bf21;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0; 
+    z-index: 11;
+}
+a:link.x_mn, a:visited.x_mn {
+    color: #FFFFFF;
+    background-color: #98bf21;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin: 0px;
+    font-size: 20px;
+    z-index: 12;
+}
+header a:hover, header a:active {
+    background-color: #7A991A;
+    margin: 0px;
+    transform: translateY(10px);
+}
+
+a:hover.x_mn, a:active.x_mn {
+    background-color: #7A991A;
+    margin: 0px;
+}
+div.news_frame{
+    position: static;
+    margin: 5px;
+    padding: 5px;
+    /* height: auto; */
+    width: 375px;
+    float: left;
+    text-align: center;
+    border: 1px solid #cccccc;
+    min-height: 420px;
+}
+
+div.news_frame img{
+    /* width: inherit; */
+    margin: 5px;
+    width: 365px;
+    border: 1px solid #ffffff;
+}
+
+div.news_frame a:hover img{
+    opacity: 0.8;
+}
+
+div.news_frame div.title{
+    text-align: left;
+    font-weight: normal;
+    margin: 5px;
+    font-size: 20px;
+    color: #1c468e;
+}
+
+div.news_frame div.short_description{
+    text-align: justify;
+    font-weight: normal;
+    width: auto;
+    margin: 5px;
+}
+footer{
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:#98bf21;
+  color: white;
+  text-align: center;
+  font-family: KhmerOS_SRFont;
+  font-size: 18px;
+  clear: left;
+  text-decoration: underline;
+  text-decoration-color: #98bf21;
+}
+
+div.Content{
+  text-align: left;
+  padding: 10px 10px;  
+  line-height: 1.6;
+  font-family: KhmerOS_SRFont;
+  font-size: 18px;
+}
+
+div.CollaborationFrame{
+  position: static;
+  margin: 5px;
+  padding: 5px;  
+  height: auto;
+  width: 275px;
+  float: left;
+  text-align: center;
+  border: 1px solid #cccccc;
+  min-height: 280px;
+}
+div.CollaborationFrame img{
+    margin: 5px;
+    width: 265px;
+    border: 1px solid #ffffff;
+    transition: all 0.3s ease;
+}
+div.CollaborationFrame a:hover img {
+    opacity: 1;
+    transform: translateY(0);
+    border-bottom: 4px solid #99cc33;
+}
+.Content {
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+    padding-left: 15px;
+}
+.BigFrame {
+    position: relative;
+}
+
+.BigFrame img {
+    width: 100%;
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    top: 40px; /* adjust vertical position */
+    left: 70px; /* adjust horizontal position */
+    z-index: 10; /* ensures logo stays in front */
+}
+
+.logo img {
+    width: 200px; /* adjust size as needed */
+}
+
+
+
+
+
